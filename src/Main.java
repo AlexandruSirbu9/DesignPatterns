@@ -16,6 +16,9 @@ public class Main {
         c1.Run();
         c2.Run();
 
+        //Am folosit design pattern-ul Factory pentru a crea obiectul fara a expune logica de constructie clientului
+        //Am folosit design pattern-ul Observer pentru a dirija masinile in trafic 
+
 
     }
 }

@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Semafor {
     private String color;
-    private List<Car> carList = new ArrayList<>();
+    private List<Car> carList = new ArrayList<>();//Lista de observatori
 
     public void addCar(Car car){
         this.carList.add(car);
