@@ -1,11 +1,6 @@
 public abstract class Car {
-    String getName(){
-        return null;
-    }
-    String getTires(){
-
-        return null;
-    }
+    abstract String getName();
+   abstract String getTires();
 
     private String color;
 
@@ -21,6 +16,14 @@ public abstract class Car {
         }else {
             System.out.println("Car is not at the traffic light. ");
         }
+    }
+
+    public void Go(){
+        System.out.println("Car go.");
+    }
+
+    public void Stop(){
+        System.out.println("Car stop.");
     }
 
 
